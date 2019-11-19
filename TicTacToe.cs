@@ -19,11 +19,7 @@ namespace TicTacToe1._0
 
         public TicTacToe()
         {
-            InitializeComponent();
-            defaultValues();
-            SetStyle(ControlStyles.UserPaint, true);
-            SetStyle(ControlStyles.AllPaintingInWmPaint, true);
-            SetStyle(ControlStyles.DoubleBuffer, true);
+            InitializeComponent();        
         }
 
         private void defaultValues() {
@@ -134,7 +130,10 @@ namespace TicTacToe1._0
 
         private void TicTacToe_Load(object sender, EventArgs e)
         {
-
+            defaultValues();
+            SetStyle(ControlStyles.UserPaint, true);
+            SetStyle(ControlStyles.AllPaintingInWmPaint, true);
+            SetStyle(ControlStyles.DoubleBuffer, true);
         }
 
         private void button1_Click(object sender, EventArgs e)
