@@ -111,22 +111,25 @@ namespace TicTacToe1._0
         }
 
         /********************************* AI CONTROL *******************/
-        /* INCOMPLETE FUNCTION */
         private void aiOpponent() {
-            int aiChoice = rand.Next(1, 10);
+        /*********** INCOMPLETE ********************/
+            int aiChoice = randomFunc();
 
-            if (aiChoice == 1) { if (button1.Enabled == true) { button1.PerformClick(); } else aiOpponent(); }
-            else if (aiChoice == 2) { if (button2.Enabled == true) { button2.PerformClick(); } else aiOpponent(); }
-            else if (aiChoice == 3) { if (button3.Enabled == true) { button3.PerformClick(); } else aiOpponent(); }
-            else if (aiChoice == 4) { if (button4.Enabled == true) { button4.PerformClick(); } else aiOpponent(); }
-            else if (aiChoice == 5) { if (button5.Enabled == true) { button5.PerformClick(); } else aiOpponent(); }
-            else if (aiChoice == 6) { if (button6.Enabled == true) { button6.PerformClick(); } else aiOpponent(); }
-            else if (aiChoice == 7) { if (button7.Enabled == true) { button7.PerformClick(); } else aiOpponent(); }
-            else if (aiChoice == 8) { if (button8.Enabled == true) { button8.PerformClick(); } else aiOpponent(); }
-            else if (aiChoice == 9) { if (button9.Enabled == true) { button9.PerformClick(); } else aiOpponent(); }
-            else return;
+            if (aiChoice == 1) { if (button1.Enabled == true) { button1.PerformClick(); } }
+            if (aiChoice == 2) { if (button2.Enabled == true) { button2.PerformClick(); } }
+            if (aiChoice == 3) { if (button3.Enabled == true) { button3.PerformClick(); } }
+            if (aiChoice == 4) { if (button4.Enabled == true) { button4.PerformClick(); } }
+            if (aiChoice == 5) { if (button5.Enabled == true) { button5.PerformClick(); } }
+            if (aiChoice == 6) { if (button6.Enabled == true) { button6.PerformClick(); } }
+            if (aiChoice == 7) { if (button7.Enabled == true) { button7.PerformClick(); } }
+            if (aiChoice == 8) { if (button8.Enabled == true) { button8.PerformClick(); } }
+            if (aiChoice == 9) { if (button9.Enabled == true) { button9.PerformClick(); } }
         }
-
+        
+        private int randomFunc()
+        {
+            return rand.Next(1, 10);
+        }
 
         private void TicTacToe_Load(object sender, EventArgs e)
         {
