@@ -7,3 +7,13 @@ D:\School\Personal Projects\TicTacToe1.0\obj\Debug\TicTacToe1._0.Properties.Reso
 D:\School\Personal Projects\TicTacToe1.0\obj\Debug\TicTacToe1.0.csproj.GenerateResource.cache
 D:\School\Personal Projects\TicTacToe1.0\obj\Debug\TicTacToe1.0.exe
 D:\School\Personal Projects\TicTacToe1.0\obj\Debug\TicTacToe1.0.pdb
+C:\Users\Terry\Documents\GitHub\csharp-tictactoe\bin\Debug\TicTacToe1.0.exe.config
+C:\Users\Terry\Documents\GitHub\csharp-tictactoe\bin\Debug\TicTacToe1.0.exe
+C:\Users\Terry\Documents\GitHub\csharp-tictactoe\bin\Debug\TicTacToe1.0.pdb
+C:\Users\Terry\Documents\GitHub\csharp-tictactoe\obj\Debug\TicTacToe1.0.csprojAssemblyReference.cache
+C:\Users\Terry\Documents\GitHub\csharp-tictactoe\obj\Debug\TicTacToe1._0.TicTacToe.resources
+C:\Users\Terry\Documents\GitHub\csharp-tictactoe\obj\Debug\TicTacToe1._0.Properties.Resources.resources
+C:\Users\Terry\Documents\GitHub\csharp-tictactoe\obj\Debug\TicTacToe1.0.csproj.GenerateResource.cache
+C:\Users\Terry\Documents\GitHub\csharp-tictactoe\obj\Debug\TicTacToe1.0.csproj.CoreCompileInputs.cache
+C:\Users\Terry\Documents\GitHub\csharp-tictactoe\obj\Debug\TicTacToe1.0.exe
+C:\Users\Terry\Documents\GitHub\csharp-tictactoe\obj\Debug\TicTacToe1.0.pdb

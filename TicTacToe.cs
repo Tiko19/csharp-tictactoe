@@ -41,14 +41,15 @@ namespace TicTacToe1._0
             int x = playerNumber(playerTurn);
 
             if (choice[0] == x && choice[1] == x && choice[2] == x) { MessageBox.Show($"Player {x} wins!!", "TicTacToe1.0"); disableAll(); }
-                else if (choice[0] == x && choice[3] == x && choice[6] == x) { MessageBox.Show($"Player {x} wins!!", "TicTacToe1.0"); disableAll(); }
-                    else if (choice[0] == x && choice[4] == x && choice[8] == x) { MessageBox.Show($"Player {x} wins!!", "TicTacToe1.0"); disableAll(); }
-                        else if (choice[1] == x && choice[4] == x && choice[7] == x) { MessageBox.Show($"Player {x} wins!!", "TicTacToe1.0"); disableAll(); }
-                            else if (choice[2] == x && choice[5] == x && choice[8] == x) { MessageBox.Show($"Player {x} wins!!", "TicTacToe1.0"); disableAll(); }
-                                else if (choice[2] == x && choice[4] == x && choice[6] == x) { MessageBox.Show($"Player {x} wins!!", "TicTacToe1.0"); disableAll(); }
-                                    else if (choice[3] == x && choice[4] == x && choice[5] == x) { MessageBox.Show($"Player {x} wins!!", "TicTacToe1.0"); disableAll(); }
-                                        else if (choice[6] == x && choice[7] == x && choice[8] == x) { MessageBox.Show($"Player {x} wins!!", "TicTacToe1.0"); disableAll(); }
-                                            else if (buttonPressed == 9) { MessageBox.Show("It's a Tie!", "TicTacToe1.0"); }
+            else if (choice[0] == x && choice[3] == x && choice[6] == x) { MessageBox.Show($"Player {x} wins!!", "TicTacToe1.0"); disableAll(); }
+            else if (choice[0] == x && choice[4] == x && choice[8] == x) { MessageBox.Show($"Player {x} wins!!", "TicTacToe1.0"); disableAll(); }
+            else if (choice[1] == x && choice[4] == x && choice[7] == x) { MessageBox.Show($"Player {x} wins!!", "TicTacToe1.0"); disableAll(); }
+            else if (choice[2] == x && choice[5] == x && choice[8] == x) { MessageBox.Show($"Player {x} wins!!", "TicTacToe1.0"); disableAll(); }
+            else if (choice[2] == x && choice[4] == x && choice[6] == x) { MessageBox.Show($"Player {x} wins!!", "TicTacToe1.0"); disableAll(); }
+            else if (choice[3] == x && choice[4] == x && choice[5] == x) { MessageBox.Show($"Player {x} wins!!", "TicTacToe1.0"); disableAll(); }
+            else if (choice[6] == x && choice[7] == x && choice[8] == x) { MessageBox.Show($"Player {x} wins!!", "TicTacToe1.0"); disableAll(); }
+            else if (buttonPressed == 9) { MessageBox.Show("It's a Tie!", "TicTacToe1.0"); }
+            else { /*Do nothing*/ }
         }
 
         /*********************************** BUTTON CONTROL *****************************/
@@ -68,7 +69,7 @@ namespace TicTacToe1._0
             //turnCheck();
         }
 
-        private string result(bool a)
+        private string result()
         {
             if (playerTurn == false)
             {
@@ -90,7 +91,7 @@ namespace TicTacToe1._0
         }
         private int playerNumber(bool a)
         {
-            if (playerTurn == false)
+            if (a == false)
             {
                 return 1;
             }
@@ -142,63 +143,63 @@ namespace TicTacToe1._0
         private void button1_Click(object sender, EventArgs e)
         {
             button1.Enabled = false;
-            button1.Text = result(playerTurn);
+            button1.Text = result();
             buttonClick(0);
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             button2.Enabled = false;
-            button2.Text = result(playerTurn);
+            button2.Text = result();
             buttonClick(1);
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             button3.Enabled = false;
-            button3.Text = result(playerTurn);
+            button3.Text = result();
             buttonClick(2);
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
             button4.Enabled = false;
-            button4.Text = result(playerTurn);
+            button4.Text = result();
             buttonClick(3);
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
             button5.Enabled = false;
-            button5.Text = result(playerTurn);
+            button5.Text = result();
             buttonClick(4);
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
             button6.Enabled = false;
-            button6.Text = result(playerTurn);
+            button6.Text = result();
             buttonClick(5);
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
             button7.Enabled = false;
-            button7.Text = result(playerTurn);
+            button7.Text = result();
             buttonClick(6);
         }
 
         private void button8_Click(object sender, EventArgs e)
         {
             button8.Enabled = false;
-            button8.Text = result(playerTurn);
+            button8.Text = result();
             buttonClick(7);
         }
 
         private void button9_Click(object sender, EventArgs e)
         {
             button9.Enabled = false;
-            button9.Text = result(playerTurn);
+            button9.Text = result();
             buttonClick(8);
         }
 
